@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Contacto</title>
+<link rel="icon" type="image/x-icon" href="cs.png">
+<link rel="stylesheet" type="text/css" href="Pagina.css" />
+
+</head>
+<body>
+<div class="header">
+
+<img src="cs.png">
+</div>
+
+<div class="topnav">
+  <a class="solid" href="Informaciondeusuario.html">Informacion de usuario</a>
+  <a class="solid" href="Subidadeproductos.html">Subida de producto</a>
+  <a class="solid" href="Lomasvendido.html">BEST SELLER</a>
+  <a  href="Carrito.html" style="float:right">&#128722;</a>
+  <a class="solid" href="#" style="float:right">Contacto</a>
+  <a class="solid" href="Registro.html" style="float:right">Registro</a>
+  <a class="solid" href="Iniciodesesion.html" style="float:right">Iniciar sesion</a>
+</div>
+
+<br>
+<br>
+<br>
+<div class="form">
+  <form action="/action_page.php">
+	<h1>Contacto</h1>
+	<label for="name"><h2>Nombre</h2></label>
+    <input type="text" pattern="[A-Za-z]{3,20}" required id="name" name="name" placeholder="Escribe tu nombre">
+	<label for="fname"><h2>Correo electronico</h2></label>
+    <input type="email" required class="form-input" id="fname" name="firstname" placeholder="correo.ejempo@gmail.com">
+
+    <label for="lname"><h2>Numero de telefono</h2></label>
+    <input type="tel" pattern="[6-7]{1}[0-9]{8}" id="lname" name="lastname" required maxlength="9" minlength="9"  placeholder="Numero de telefono">
+	
+	<label for="name"><h2>¿Motivo de contacto?</h2></label>
+		<select id="c" name="c">
+		<option value="s">Sugerencia</option>
+        <option value="q">Queja</option>
+        <option value="c">Postulacion</option>
+      </select>
+	  
+	 <label for="name"><h2>Descripción</h2></label>
+	<textarea id="subject" name="subject" placeholder="Exponga brevemente su Sugerencia, Queja o Perfil Profesional y nos pondreamos en contacto con usted"></textarea>
+	
+	<label for="name"><h2>Adjuntar imagen o archivo</h2></label>
+	<input type="file" id="myfile" name="myfile">
+	
+	
+    <input type="submit" value="Enviar"> </form> <a href="Principal.html" class="button4">Pagina principal</a>
+</div>
+<br>
+
+<br>
+<br>
+<br>
+<div class="footer1">
+  <p>Copyright © 2022 Victor Nolasco Perez. All Rights Reserved. /  Correo Personal: victor.np.victor@gmail.com</p> 
+</div>
+
+</body>
+</html>
